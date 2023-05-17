@@ -1,0 +1,26 @@
+/* tornando o código responsivo */
+/* definindo pontos de quebra */
+/* https://defensivecss.dev/ SITE COM DICAS DE RESPONSIVO */
+
+/* função css */
+@media(max-width:1024px){
+    .hotel-item{
+        width: 45%;
+    }
+
+    .header-page{
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 30px
+    }
+}
+@media(max-width:760px){
+    .hotel-item{
+        width: 90%;
+    }
+
+    .about-item{
+        width: 90%;
+        padding: 30px 0;
+    }
+}
