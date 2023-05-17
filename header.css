@@ -9,12 +9,12 @@
 }
 
 .header-page h2 {
-    color: #fff;
+    color: var(--color-light);
     font-size: 4vmin;
 }
 
 .logo {
-    background-color: #dc143c;
+    background-color: var(--color-pink);
     padding: 5px;
     border-radius: 5px 50px 5px 50px;
 }
